@@ -1,62 +1,45 @@
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-    background-color: blanchedalmond;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f2f6;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
 
 #header_image {
-    width: 20vw;
-    display: block;
-    margin: auto;
+  width: 20vw;
+  display: block;
+  margin: auto;
 }
 
 header {
-    background-color: cadetblue;
+  background-color: #758bfd;
 }
 
 footer {
-    text-align: center;
-    background-color: cadetblue;
+  text-align: center;
+  background-color: #758bfd;
 }
 
 section {
-    margin: 5vw;
-    padding: 5vw;
-    border-radius: 20px;
-    background-color: aquamarine;
-}
-
-#ibis_pics {
-    background-color: darkorange;
+  margin: 5vw;
+  padding: 5vw;
+  border-radius: 20px;
+  background-color: #aeb8fe;
 }
 
 p {
-    margin-top: 1vw;
+  margin-top: 1vw;
 }
 
 ul {
-    margin-left: 1vw;
+  margin-left: 1vw;
 }
 
-img {
-    width: 40%;
-    display: inline-block;
-    position: relative;
-}
-
-#img1 {
-    top: -30px;
-}
-
-#img4 {
-    top: -340px;
-}
-
+/*# sourceMappingURL=styles.css.map */
