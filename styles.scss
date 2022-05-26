@@ -1,0 +1,82 @@
+$primary1: #ff8600;
+$primary2: #27167e;
+$neutral1: #758bfd;
+$neutral2: #aeb8fe;
+$neutral3: #f1f2f6;
+
+@mixin card() {
+  margin: 5vw;
+  padding: 5vw;
+  border-radius: 20px;
+  background-color: $neutral2;
+  p {
+    margin-top: 1vw;
+  }
+  ul {
+    margin-left: 1vw;
+  }
+}
+
+@mixin nav() {
+  padding-bottom: 2vw;
+  ul {
+    list-style: none;
+    li {
+      background-color: $primary1;
+      border-radius: 20px;
+      margin: 1vw 5vw;
+      padding: 5vw;
+    }
+  }
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: $neutral3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.infocard {
+  @include card;
+  p {
+    padding-top: 1vw;
+  }
+  ul {
+    margin-left: 2em;
+  }
+}
+
+.piccard {
+  @include card;
+  img {
+    max-width: 100%;
+  }
+}
+
+header {
+  background-color: $neutral1;
+  h1 {
+    text-align: center;
+  }
+  nav {
+    @include nav;
+  }
+}
+
+footer {
+  text-align: center;
+  background-color: $neutral1;
+}
+
+
+
+
+
+
+
+
+/*# sourceMappingURL=styles.css.map */

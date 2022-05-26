@@ -8,12 +8,58 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  text-align: center;
+.infocard {
+  margin: 5vw;
+  padding: 5vw;
+  border-radius: 20px;
+  background-color: #aeb8fe;
+}
+.infocard p {
+  margin-top: 1vw;
+}
+.infocard ul {
+  margin-left: 1vw;
+}
+.infocard p {
+  padding-top: 1vw;
+}
+.infocard ul {
+  margin-left: 2em;
+}
+
+.piccard {
+  margin: 5vw;
+  padding: 5vw;
+  border-radius: 20px;
+  background-color: #aeb8fe;
+}
+.piccard p {
+  margin-top: 1vw;
+}
+.piccard ul {
+  margin-left: 1vw;
+}
+.piccard img {
+  max-width: 100%;
 }
 
 header {
   background-color: #758bfd;
+}
+header h1 {
+  text-align: center;
+}
+header nav {
+  padding-bottom: 2vw;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  background-color: #ff8600;
+  border-radius: 20px;
+  margin: 1vw 5vw;
+  padding: 5vw;
 }
 
 footer {
@@ -21,19 +67,6 @@ footer {
   background-color: #758bfd;
 }
 
-section {
-  margin: 5vw;
-  padding: 5vw;
-  border-radius: 20px;
-  background-color: #aeb8fe;
-}
-
-p {
-  margin-top: 1vw;
-}
-
-ul {
-  margin-left: 1vw;
-}
+/*# sourceMappingURL=styles.css.map */
 
 /*# sourceMappingURL=styles.css.map */
